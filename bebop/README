@@ -1,0 +1,19 @@
+=====
+bebop
+=====
+
+Synopsis
+========
+
+*bebop* is a cataloging music player.  It's important distinctions are:
+
+- random mode:  it makes sure that every song is played in a list before any song is repeated
+  (with some adjustments for favorites) -- after all, if have a song in a list you want to hear
+  it, right?
+
+- *playlist*/*genre*: playlists and genres are tracked by tag -- *country* and *upbeat* would
+  both be tags, and both selectable as playlists
+
+- favorites: each song has a favorites rating *by tag* -- meaning a song can have a high
+  rating in one tag (and be played more often there) and a low rating in a different tag (so
+  it's not played as often when that tag is selected)
