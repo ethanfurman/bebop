@@ -17,3 +17,21 @@ Synopsis
 - favorites: each song has a favorites rating *by tag* -- meaning a song can have a high
   rating in one tag (and be played more often there) and a low rating in a different tag (so
   it's not played as often when that tag is selected)
+
+
+Dependencies
+============
+
+Metadata information, aka `tags`[^1], will be read using `tinytag`.
+
+Sounds will be altered using `pydub`, and played using `playsound` (which relies on commonly
+installed external music players).
+
+
+
+
+
+
+---
+
+[^1]: title, date, author, album, track, etc.
